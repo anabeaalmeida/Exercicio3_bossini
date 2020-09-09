@@ -1,0 +1,26 @@
+.novo-curso{
+    color: blue;
+    border: 1px solid black;
+}
+
+h1{
+    color:red;
+}
+
+#descricao{
+    color: grey;
+}
+
+h3{
+    background-color: black;
+    border: 1px solid;
+    color: honeydew;
+}
+
+#texto{
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1000px) {
+   
+}

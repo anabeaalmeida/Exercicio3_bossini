@@ -1,0 +1,48 @@
+article p { 
+    padding: 12px;
+    
+}
+
+.curso{
+    background-color: aliceblue;
+
+}
+
+.novo-curso{
+    background-color: aliceblue;
+    color: red;
+}
+
+
+p.final-pagina#rodape{
+    border-bottom: 1px solid black;
+    background-color: #CCC;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.promocao{
+    text-align: center;
+    background-color: yellow;
+}
+
+#titulo{
+    text-align: center;
+    border-bottom: 1px dashed black;
+    color: blueviolet;
+    background-color: salmon ;
+}
+
+h1{
+    color:darkorange
+}
+
+p#descricao{
+    color:blue;
+    text-align: center;
+}
+p{
+    color: darkviolet;
+    border: solid 1px black;
+}
