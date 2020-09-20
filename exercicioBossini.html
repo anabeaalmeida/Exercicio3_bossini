@@ -1,6 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html>
+<header>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,53 +8,231 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="teste.css">
+    <title>
+        aula01 Igor
+    </title>
+    <style>
+ 
+        .descricao {
+            text-align: justify;
+            margin-bottom: 70px;
+            padding: 10px;
+        }
+    </style>
+</header>
 
-    <link rel="stylesheet" href="css/styleBossini.css">
-  </head>
+<body>
 
-  <body style="text-align: center; background-color: beige;">
     
-    <main>
-        <h1>Universidade Ensino Mais</h1>
-
-    <p id="descricao"><strong>A Universidade Ensino Mais possui cursos nas mais diversas áreas, e cursos mais procurados na atualidade </strong></p>
-
-    <p id="descricao"><strong>
+    <p>
+    <h1 style="color: red" class="text-center">Universidade Ensino Mais</h1>
+    <p id="texto" class="text-center" ><strong>A Universidade Ensino Mais possui cursos nas mais diversas áreas, e cursos mais procurados na atualidade </strong></p>
+    
+    <p id="texto" class="text-center"><strong>
     Venha conversar conosco e conhecer nossas ofertas de bolsas
     de estudo.</strong>
     </p>
 
-    <h1>Cursos:</h1>
-    <article>
-        <h2 class="novo-curso">Análise e Desenvolvimento de Sistemas</h2>
-        <p id="texto">Modelar sistemas utilizando Análise Orientada a Objetos e melhores práticas de desenvolvimento (UML, XP, Scrum). Construir projetos de aplicações sob medida (distribuída, web e mobile) aplicando Design Thinking & Propotyping para um cliente real e atualizando sistemas já existentes</p>
+    <!--Inicio do carrosel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.catho.com.br/educacao/blog/wp-content/uploads/sites/2/2018/10/2018-11-02-como-e-o-curso-de-analise-e-desenvolvimento-de-sistemas.png" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.anchieta.br/hubfs/ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o%202.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://d3q93wnyp4lkf8.cloudfront.net/revista/post_images/16740/1eb0e7b1b273bdf961a410b75807ea2f5b632fa8.png?1552932217" alt="Terceiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://assets.guiadacarreira.com.br/wp-content/uploadedfiles/uploads/2015/07/medical1.jpg" alt="Quarto Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.tuiuti.edu.br/hubfs/design_de_moda.png" alt="Quinto Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <!--Fim  do carrosel-->
+
+    <h3  class="text-center" style="border-bottom: 1px solid black; color: red;">
+        Cursos
+    </h3>
+
+    <div class="container">
+        <!-- inicio row -->
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <h3 id="curso" class="novo-curso">Análise e Desenvolvimento de Sistemas</h3>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-10">
+                        
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-6  col-xs-2" >
+                        Modelar sistemas utilizando Análise Orientada a Objetos e melhores práticas de desenvolvimento (UML, XP, Scrum). Construir projetos de aplicações sob medida (distribuída, web e mobile) aplicando Design Thinking & Propotyping para um cliente real e atualizando sistemas já existentes
+                    
+                    </div>
+                </div>        
+            </div>
+            <div class="col">
+                <hr>
+            </div>
+        </div>
+        <!-- fim row mediciana-->
+
         
-        <h2 class="novo-curso">Ciência da Computação</h2>
-        <p id="texto">Criar, projetar e gerir redes de computadores com protocolos de alto nível, roteadores e swtiches baseados em alta disponibilidade. Implementar soluções e serviços baseados em sistemas Windows e Linux.</p>
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <h3 id="curso" class="novo-curso">Ciência da Computação</h3>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-10">
+                        
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-6  col-xs-2" >
+                        Criar, projetar e gerir redes de computadores com protocolos de alto nível, roteadores e swtiches baseados em alta disponibilidade. Implementar soluções e serviços baseados em sistemas Windows e Linux.
+                    
+                    </div>
+                </div>        
+            </div>
+            <div class="col">
+                <hr>
+            </div>
+        </div>
         
-        <h2 class="novo-curso">Engenharia</h2>
-        <p id="texto">Gerencia e executa obras como casas, prédios, pontes, viadutos, estradas e barragens. Ele acompanha todas as etapas de uma construção ou reforma, analisa as condições do solo e estuda a insolação e a ventilação do local e até a definição dos tipos de fundação e os acabamentos.</p>
+
+         
+         <div class="row">
+            <div class="col-12">
+                <div>
+                    <h3 id="curso" class="novo-curso">Engenharia</h3>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-10">
+                        
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-6  col-xs-2" >
+                        Gerencia e executa obras como casas, prédios, pontes, viadutos, estradas e barragens. Ele acompanha todas as etapas de uma construção ou reforma, analisa as condições do solo e estuda a insolação e a ventilação do local e até a definição dos tipos de fundação e os acabamentos.
+                    
+                    </div>
+                </div>        
+            </div>
+            <div class="col">
+                <hr>
+            </div>
+        </div>
         
-        <h2 class="novo-curso">Medicina</h2>
-        <p id="texto">Faz diagnósticos, pede exames, prescreve medicamentos e realiza cirurgias. Participa também de programas de prevenção e de planejamento da saúde coletiva. Há trabalho para o médico em hospitais, clínicas, postos de saúde e empresas.</p>
+
+          
+           <div class="row">
+            <div class="col-12">
+                <div>
+                    <h3 id="curso" class="novo-curso">Medicina</h3>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-10">
+                        
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-6  col-xs-2" >
+                        Faz diagnósticos, pede exames, prescreve medicamentos e realiza cirurgias. Participa também de programas de prevenção e de planejamento da saúde coletiva. Há trabalho para o médico em hospitais, clínicas, postos de saúde e empresas.
+                    
+                    </div>
+                </div>        
+            </div>
+            <div class="col">
+                <hr>
+            </div>
+        </div>
         
-        <h2 class="novo-curso">Moda</h2>
-        <p id="texto">O mercado de moda enfrenta diariamente a entrada de novos players, principalmente de marcas que operam diretamente ao consumidor por meio digital (Direct-To-Consumer). O consumidor deseja novas ofertas e produtos com mais frequência, em um ambiente no qual a experiência e o serviço sejam surpreendentes e com marcas que colocam a sustentabilidade como parte da estratégia do negócio.</p>
-    
-    </article>
-    
-    <h3>Contato</h3>
-    <p id="rodape" class="final-pagina">Entre em contato: 12456-9678</p>
-    
-    </main>
+
+        
+         <div class="row">
+            <div class="col-12">
+                <div>
+                    <h3 id="curso" class="novo-curso">Moda</h3>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-10">
+                        
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-6  col-xs-2" >
+                        O mercado de moda enfrenta diariamente a entrada de novos players, principalmente de marcas que operam diretamente ao consumidor por meio digital (Direct-To-Consumer). O consumidor deseja novas ofertas e produtos com mais frequência, em um ambiente no qual a experiência e o serviço sejam surpreendentes e com marcas que colocam a sustentabilidade como parte da estratégia do negócio.
+                    </div>
+                </div>        
+            </div>
+            <div class="col">
+                <hr>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+   <br>
+   <br>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        
+
+
+            <p  class="text-white ">Universidade Ensino Mais<br>
+                <a href="BioPlus@example.com">ensinomais@universidade.com.br</a>
+            <p  class="text-white "> Contato:
+                (11) 2456-9678
+    </nav>
+
+
+
+    </ul>
+    </nav>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+
+</body>
+
 </html>
